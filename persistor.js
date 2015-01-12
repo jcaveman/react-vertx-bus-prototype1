@@ -1,8 +1,5 @@
 const vertx = require('vertx');
 const console = require('vertx/console');
-const mongoClient = require('mongodb').MongoClient;
-
-console.log(mongoClient);
 
 console.log('persistor initialized');
 
