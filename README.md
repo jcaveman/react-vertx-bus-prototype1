@@ -67,12 +67,12 @@ Verify your MongoDB settings and modify server.conf in necessary.
 
 The defaults are:
 
-  {
-    "address": "comments.persistor",
-    "db_name": "vertx-persistor",
-    "host": "localhost",
-    "port": 27017
-  }
+    {
+        "address": "comments.persistor",
+        "db_name": "vertx-persistor",
+        "host": "localhost",
+        "port": 27017
+    }
 
 Verify your local hostname and port for the web server and modify if desired.
 
@@ -80,10 +80,10 @@ Verify your local hostname and port for the web server and modify if desired.
 
 The defaults are:
 
-  {
-    "domain": "localhost",
-    "port": 8080
-  }
+    {
+        "domain": "localhost",
+        "port": 8080
+    }
 
 ### Running the application
 
