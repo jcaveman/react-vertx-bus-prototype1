@@ -1,0 +1,12 @@
+{
+  "main": "react-fe.js",
+  "description": "A prototype demonstrating a React commenting app which uses SockJS to persist data between distributed verticles over the Vert.x event bus.",
+  "keywords": [
+    "react",
+    "vertx",
+    "event-bus",
+    "mongodb"
+  ],
+  "author": "jcaveman",
+  "homepage": "https://github.com/jcaveman/react-vertx-bus-prototype1"
+}

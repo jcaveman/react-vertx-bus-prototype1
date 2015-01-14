@@ -1,0 +1,12 @@
+{
+  "main": "server.js",
+  "description": "The middleware which handles data persistance. Provides an API for comments and deploys mod-mongo-persistor as a module.",
+  "keywords": [
+    "vertx",
+    "event-bus",
+    "mongodb",
+    "mongo"
+  ],
+  "author": "jcaveman",
+  "homepage": "https://github.com/jcaveman/react-vertx-bus-prototype1"
+}

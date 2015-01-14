@@ -1,16 +1,12 @@
-/*
- * Dependencies
- */
-const vertx = require('vertx');
-const console = require('vertx/console');
+const container = require('vertx/container');
+const vertx     = require('vertx');
+const console   = require('vertx/console');
 
-/*
- * Constants
- */
-const port = 8082;
-const domain =  'localhost';
+var config      = container.config;
+var domain      = config.domain;
+var port        = config.port;
 
-var server = vertx.createHttpServer();
+var server      = vertx.createHttpServer();
 
 console.log('Server listerning to ' + domain + ':' + port);
 
