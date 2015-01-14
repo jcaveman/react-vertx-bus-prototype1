@@ -19,7 +19,7 @@ com.helloelephant~mongo-persistor~0.01
 
 This is a JavaScript middleware layer which provides an API for the front-end and contains all of the handlers for the event bus.
 
-3. A 3rd party MongoDB persistor
+#### 3. A 3rd party MongoDB persistor
 io.vertx~mod-mongo-persistor~2.1.0
 
 This is a Java module from the Vert.x module registry developed by the Vert.x team. This module gets auto-deployed by the middleware layer and should be install automatically.
